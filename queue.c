@@ -31,7 +31,7 @@ bool EnQueue(SqQueue *Q,int x) {
 } 
 
 // ³ö¶Ó
-bool DeQueue(SqQueue *Q,int *x) {
+bool DeQueue(SqQueue *Q,int *x) { 
 	if (Q->rear == Q->front) {
 		return false;
 	}
